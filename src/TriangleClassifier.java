@@ -6,7 +6,8 @@ public class TriangleClassifier {
             else if (sideA == sideB || sideB == sideC || sideA == sideC)
                 return "Tam giác cân";
             else if(sideA + sideB > sideC && sideB + sideC > sideA &&
-                    sideA + sideC > sideB) return "Tam giác thường";
+                    sideA + sideC > sideB)
+                return "Tam giác thường";
         }
         return "Không phải là tam giác";
     }
